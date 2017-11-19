@@ -12,4 +12,4 @@
 
 * **redis-cli monitor** in another window
 
-* **Go to: localhost:3000/books to see magic!**
+* Go to: **localhost:3000/books** to see magic!
