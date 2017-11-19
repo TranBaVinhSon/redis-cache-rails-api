@@ -1,24 +1,15 @@
-# README
+### Model caching using Redis and Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Install Redis first
 
-Things you may want to cover:
+* Git clone https://github.com/TranBaVinhSon/redis-cache-rails-api
 
-* Ruby version
+* bundle install
 
-* System dependencies
+* rails db:setup
 
-* Configuration
+* redis-server
 
-* Database creation
+* **redis-cli monitor** in another window
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* **Go to: localhost:3000/books to see magic!**
