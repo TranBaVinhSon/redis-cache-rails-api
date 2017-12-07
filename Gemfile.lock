@@ -44,8 +44,8 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.3)
     erubi (1.7.0)
-    faker (1.8.4)
-      i18n (~> 0.5)
+    faker (1.8.5)
+      i18n (~> 0.9.1)
     ffi (1.9.18)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -67,14 +67,12 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    puma (3.10.0)
+    puma (3.11.0)
     rack (2.0.3)
     rack-cache (1.6.1)
       rack (>= 0.4)
     rack-cors (1.0.2)
-    rack-mini-profiler (0.10.6)
-      rack (>= 1.2.0)
-    rack-test (0.7.1)
+    rack-test (0.8.2)
       rack (>= 1.0, < 3)
     rails (5.1.4)
       actioncable (= 5.1.4)
@@ -156,7 +154,6 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
   rack-cors
-  rack-mini-profiler
   rails (~> 5.1.4)
   redis
   redis-namespace
